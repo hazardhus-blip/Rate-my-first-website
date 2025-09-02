@@ -15,7 +15,7 @@ h2{
 font-family:Libertinus Keyboard;
 font-size: 35px;
 color:rgb(104, 10, 59);
-height: 50px;
+height: fit-content;
 width:fit-content;
 margin-left:auto ;
 margin-right: auto;
@@ -106,3 +106,4 @@ transform: rotateX(180deg);}
     position: absolute;
     margin-left: 15%;
     margin-right: 15%; }
+
