@@ -1,0 +1,108 @@
+
+body{background-image: url(hazardhusbackdrop.jpg);}
+
+h1{font-family:'Chewy';
+font-size: 50px;
+color:rgb(133, 27, 82);
+background-color: rgb(238, 181, 210); 
+border:3px solid;
+border-color: rgb(133, 27, 82);
+box-shadow: 2px 2px 2px 2px black;
+height:fit-content;
+text-align: center;}
+
+h2{ 
+font-family:Libertinus Keyboard;
+font-size: 35px;
+color:rgb(104, 10, 59);
+height: 50px;
+width:fit-content;
+margin-left:auto ;
+margin-right: auto;
+background-color: rgb(247, 227, 237);
+text-align: center;
+}
+
+button:hover{background-color:rgb(238, 181, 210);}
+
+#back{
+height:25px;
+width: 25px;
+background-color: rgb(238, 181, 210); 
+color: rgb(133, 27, 82); 
+border: 2px solid;
+border-color:rgb(133, 27, 82);}
+
+
+#face{
+height: 150px;
+width: 150px;
+border: solid;
+border-radius: 100px;
+position: relative;
+float:left;
+margin: 25px;}
+#face:hover{background-color:rgb(238, 181, 210);}
+
+#leye{
+height: 25px;
+width: 25px;
+border: solid;
+border-radius: 100px;
+position: absolute;
+left: 10px;
+top: 50px;}
+
+
+#reye{
+height: 25px;
+width: 25px;
+border: solid;
+border-radius: 100px;
+position: absolute;
+right: 10px;
+top: 50px;}
+
+#frown{
+height: 35px;
+width: 40px;
+border: 2px solid;
+border-radius: 50%;
+clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
+position: absolute;
+right: 53px;
+top: 70px;}
+
+#meh{
+width: 40px;
+border: solid;
+border-radius: 0%;
+position: absolute;
+right: 53px;
+top: 70px;
+}
+
+#smile{
+height: 35px;
+width: 40px;
+border: 2px solid;
+border-radius: 50%;
+clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
+position: absolute;
+right: 52px;
+top: 50px;
+transform: rotateX(180deg);}
+
+
+
+.vote_bg{
+    height:fit-content;
+    width:fit-content;
+    background-color: rgb(247, 227, 237);
+    border: 2px black;
+    border-radius: 40px;
+    padding: 10px;
+    place-items: center;
+    position: absolute;
+    margin-left: 15%;
+    margin-right: 15%; }
