@@ -1,0 +1,72 @@
+
+body{ background-image: url(hazardhusbackdrop.jpg);}
+
+.font{
+    background-color: bisque;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    position: relative;}
+
+h1{font-family:'Chewy';
+font-size: 50px;
+height: 30px;
+margin-top: 10px}
+
+h2{ 
+font-family:Libertinus Keyboard;
+font-size: 35px;
+color:rgb(255, 255, 255);
+height: 50px;
+text-align: center;}
+
+
+button:hover{background-color:rgb(238, 181, 210);}
+
+#back{
+height: 40px;
+width: 40px;
+background-color: rgb(238, 181, 210); 
+color: rgb(133, 27, 82); 
+font-size:xx-large;
+border: 2px, solid;
+border-color:rgb(133, 27, 82);
+position: absolute;
+right: 2%;
+top: 1.60%;
+z-index: 10;
+}
+
+
+form{
+   text-align: center;
+   font-family:'Chewy';}
+
+
+#fade{
+    width: 250px; 
+   height: 250px; 
+   margin-left: 20%; 
+   margin: top 0%;
+   animation: fade 5s infinite;
+   opacity: 0;}
+
+@keyframes fade{
+    100%{opacity: 1;}}
+
+#spin{
+    width: 250px; 
+   height: 250px; 
+   margin-left: 20%; 
+   margin: top 0%;
+   animation: spin 10s infinite normal forwards;   }
+
+@keyframes spin{
+   1%{opacity: 0;transform: rotate(0deg);}
+   50%{opacity: 1;transform: rotate(0deg);}
+   100%{transform: rotate(360deg);}}
+
+
